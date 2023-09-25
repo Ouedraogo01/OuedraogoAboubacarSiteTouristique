@@ -1,0 +1,19 @@
+.wrapper{
+    margin-left: 5;
+    margin-right: 5;
+}
+
+
+@media (max-width: 300px){
+
+    .dbox{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .wrapper{
+        margin-left: 0;
+    }
+}

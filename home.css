@@ -1,0 +1,26 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.destination{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.titre{
+    text-transform: uppercase;
+}
+
+.title{
+    color: green;
+    border-top: 1px solid green;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+@media (max-width: 400px){
+    .destination{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,8 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.cartes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
